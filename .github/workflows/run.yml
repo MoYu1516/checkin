@@ -10,8 +10,8 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@eef6142ec24265b06de66984d84a744b3e851de5
-      - uses: actions/setup-node@0a44ba784172527381f43854514b7c6829738d33
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-node@v4.2.0
         with:
           node-version: 18
       - run: npm ci
